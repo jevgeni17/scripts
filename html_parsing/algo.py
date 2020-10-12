@@ -15,8 +15,7 @@ links = []
 for i in soup.select('.toctree-l1 > .reference'):
     href = urljoin(page.url, i.get('href'))
     links.append(href)
-with open('file.txt', 'w') as file:
+with open('output.txt', 'w') as file:
     for i in links:
-        file.write(i + '\n')
-    file.write(str(len(links)))
-#print(links)
+       file.write(i + '\n')
+
