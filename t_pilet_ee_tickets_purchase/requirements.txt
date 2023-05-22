@@ -1,4 +1,4 @@
 colorama==0.4.3
 termcolor==1.1.0
 selenium==3.141.0
-requests==2.24.0
+requests==2.31.0
